@@ -1,0 +1,17 @@
+board
+board.readers
+board.writers
+boardcad
+boardcad.export
+boardcad.gui.jdk
+boardcad.gui.jdk.plugin
+boardcad.i18n
+boardcad.print
+boardcad.settings
+boardcam
+boardcam.cutters
+boardcam.holdingsystems
+boardcam.readers
+boardcam.toolpathgenerators
+boardcam.writers
+cadcore

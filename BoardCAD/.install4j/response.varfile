@@ -1,0 +1,6 @@
+# install4j response file for BoardCAD 3.0.1
+sys.adminRights$Boolean=false
+sys.installationDir=/home/alogo/BoardCAD
+sys.languageId=en
+sys.programGroupDisabled$Boolean=false
+sys.symlinkDir=/usr/local/bin

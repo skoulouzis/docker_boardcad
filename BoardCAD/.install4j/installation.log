@@ -1,0 +1,1140 @@
+[INFO] logger started at Mon Jan 04 19:57:17 CET 2021
+[INFO] executable name: /home/alogo/workspace/docker_boardcad/BoardCAD_unix.sh
+[INFO] install4j version: 6.0 (build 6030)
+[INFO] Properties: 
+-- listing properties --
+sun.desktop=gnome
+awt.toolkit=sun.awt.X11.XToolkit
+java.specification.version=11
+sun.cpu.isalist=
+sun.jnu.encoding=UTF-8
+java.class.path=i4jruntime.jar:user.jar
+sun.awt.enableExtraMouseButtons=true
+java.vm.vendor=Ubuntu
+sun.arch.data.model=64
+install4j.exeDir=/home/alogo/workspace/docker_boardcad/
+sun.font.fontmanager=sun.awt.X11FontManager
+java.vendor.url=https://ubuntu.com/
+user.timezone=Europe/Amsterdam
+os.name=Linux
+java.vm.specification.version=11
+sun.java.launcher=SUN_STANDARD
+user.country=US
+sun.boot.library.path=/usr/lib/jvm/java-11-openjdk-amd64/lib
+sun.java.command=com.install4j.runtime.launcher.UnixLa...
+jdk.debug=release
+sun.cpu.endian=little
+user.home=/home/alogo
+user.language=en
+java.specification.vendor=Oracle Corporation
+java.version.date=2020-11-04
+java.home=/usr/lib/jvm/java-11-openjdk-amd64
+file.separator=/
+java.vm.compressedOopsMode=32-bit
+line.separator=
+
+java.specification.name=Java Platform API Specification
+java.vm.specification.vendor=Oracle Corporation
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+exe4j.moduleName=/home/alogo/workspace/docker_boardcad...
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+i4jv=0
+java.runtime.version=11.0.9.1+1-Ubuntu-0ubuntu1.18.04
+user.name=alogo
+path.separator=:
+os.version=4.15.0-128-generic
+java.runtime.name=OpenJDK Runtime Environment
+sun.java2d.noddraw=true
+file.encoding=UTF-8
+java.vm.name=OpenJDK 64-Bit Server VM
+install4j.jvmDir=/usr
+install4j.cwd=/home/alogo/workspace/docker_boardcad
+install4j.appDir=/home/alogo/workspace/docker_boardcad/
+java.vendor.url.bug=https://bugs.launchpad.net/ubuntu/+so...
+java.io.tmpdir=/tmp
+java.version=11.0.9.1
+user.dir=/home/alogo/workspace/docker_boardcad...
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+exe4j.totalDataLength=23987803
+java.awt.printerjob=sun.print.PSPrinterJob
+sun.os.patch.level=unknown
+java.library.path=/usr/java/packages/lib:/usr/lib/x86_6...
+java.vm.info=mixed mode, sharing
+java.vendor=Ubuntu
+java.vm.version=11.0.9.1+1-Ubuntu-0ubuntu1.18.04
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=55.0
+i4j.vpt=true
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalWin: false
+       Property failIfNotObtainedWin: true
+       Property obtainIfAdminMac: false
+       Property obtainIfNormalMac: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotRootUnix: false
+       Property allRequested: false
+       Property rollbackSupported: false
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+       thread name AWT-EventQueue-0
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 76]: Show screen
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 76]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property file: null
+       Property excludedVariables: [sys.installationDir]
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: true
+       Response file /home/alogo/BoardCAD/.install4j/response.varfile does not exist
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property checkFreeSpace: true
+       Property validateApplicationId: false
+       Property sizeCalculatorScript: null
+       Property saveDownloadedFiles: false
+       Property installRuntime: true
+       Property updateBundledJre: true
+       Property triggerReboot: true
+       Property delay: false
+       Property fileFilterScript: null
+       Property directoryResolverScript: null
+       Property showFileNames: true
+       Property rollbackSupported: true
+       Install file: /home/alogo/BoardCAD/.DS_Store; size: 18436 bytes; exists: false
+       File options set to: [fileTime: Mon Feb 23 16:37:28 CET 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/alogo/BoardCAD/.install4j/2bfa42ba.lprop; size: 54 bytes; exists: false
+       File options set to: [fileTime: Mon Feb 23 16:38:24 CET 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/alogo/BoardCAD/.install4j/5b25c053.lprop; size: 189 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/.install4j/BoardCAD.png; size: 64956 bytes; exists: false
+       File options set to: [fileTime: Mon Feb 23 16:38:24 CET 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/alogo/BoardCAD/.install4j/s_zasq4s.png; size: 48879 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/.install4j/uninstall.png; size: 73008 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/BoardCAD.jar; size: 1214957 bytes; exists: false
+       File options set to: [fileTime: Mon Feb 23 16:37:28 CET 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/alogo/BoardCAD/BoardCAD.png; size: 48879 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/Lib.jar; size: 4727240 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/.DS_Store; size: 6148 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/AbstractBoard.class; size: 395 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/AbstractBoard.java; size: 432 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/BezierBoard$1.class; size: 549 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/BezierBoard$2.class; size: 602 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/BezierBoard$3.class; size: 613 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/BezierBoard.class; size: 36508 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/BezierBoard.java; size: 68833 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/MeshBoard.class; size: 1784 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/MeshBoard.java; size: 2666 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/NurbsBoard.class; size: 71131 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/NurbsBoard.java; size: 155327 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/readers/BrdReader.class; size: 10286 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/readers/BrdReader.java; size: 15133 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/readers/S3dReader.class; size: 8752 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/readers/S3dReader.java; size: 14126 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/readers/SrfReader.class; size: 13732 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/readers/SrfReader.java; size: 30454 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/readers/StepReader.class; size: 10578 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/readers/StepReader.java; size: 18730 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/writers/BrdWriter.class; size: 7856 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/writers/BrdWriter.java; size: 8676 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/writers/S3DWriter.class; size: 206 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/writers/S3DWriter.java; size: 72 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/writers/StepWriter.class; size: 13358 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/board/writers/StepWriter.java; size: 17068 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/.DS_Store; size: 10244 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/AbstractDraw.class; size: 1746 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/AbstractDraw.java; size: 3638 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/BoardCAD; size: 10746 bytes; exists: false
+       File options set to: [fileTime: Mon Feb 23 16:38:24 CET 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/alogo/BoardCAD/boardcad/BoardCAD.vmoptions; size: 243 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/DefaultBrds.class; size: 22272 bytes; exists: false
+       File options set to: [fileTime: Mon Feb 23 16:37:28 CET 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/alogo/BoardCAD/boardcad/DefaultBrds.java; size: 34347 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/FileTools.class; size: 1270 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/FileTools.java; size: 1484 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/ScriptLoader.class; size: 1869 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/ScriptLoader.java; size: 1306 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/ToDo; size: 1407 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/export/DxfDraw.class; size: 3205 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/export/DxfDraw.java; size: 2746 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/export/DxfExport.class; size: 5121 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/export/DxfExport.java; size: 7725 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/export/GCodeDraw.class; size: 208 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/export/GCodeDraw.java; size: 96 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/export/PdfDraw.class; size: 204 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/export/PdfDraw.java; size: 87 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/.DS_Store; size: 8196 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/AboutBox.class; size: 2593 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/AboutBox.java; size: 2398 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/AbstractEditor.class; size: 147 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ActionEditor.class; size: 1366 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BezierBoardDrawUtil$1.class; size: 940 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BezierBoardDrawUtil.class; size: 43469 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BezierBoardDrawUtil.java; size: 89058 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$1.class; size: 1137 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$10.class; size: 1431 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$100.class; size: 1483 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$101.class; size: 1214 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$102.class; size: 1219 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$103.class; size: 952 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$104.class; size: 804 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$105.class; size: 993 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$106.class; size: 1102 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$107.class; size: 645 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$108.class; size: 2510 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$109.class; size: 906 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$11.class; size: 887 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$110.class; size: 4446 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$111.class; size: 10283 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$112.class; size: 5669 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$113.class; size: 4382 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$114.class; size: 2976 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$115.class; size: 4397 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$116.class; size: 9936 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$117.class; size: 7299 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$118.class; size: 2870 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$119.class; size: 1026 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$12.class; size: 1903 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$120.class; size: 1240 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$13.class; size: 2095 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$14.class; size: 2316 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$15.class; size: 1914 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$16.class; size: 1918 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$17.class; size: 2251 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$18.class; size: 2194 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$19.class; size: 2326 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$2.class; size: 1725 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$20.class; size: 2336 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$21.class; size: 2336 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$22.class; size: 2113 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$23.class; size: 2119 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$24.class; size: 3617 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$25.class; size: 1121 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$26$1.class; size: 1130 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$26.class; size: 4530 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$27.class; size: 1028 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$28.class; size: 1028 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$29.class; size: 1038 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$3.class; size: 727 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$30.class; size: 2074 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$31.class; size: 2075 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$32.class; size: 2040 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$33$1.class; size: 1057 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$33.class; size: 2207 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$34$1.class; size: 1057 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$34.class; size: 2193 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$35$1.class; size: 1061 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$35.class; size: 2281 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$36.class; size: 2632 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$37.class; size: 2889 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$38.class; size: 3025 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$39.class; size: 2647 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$4.class; size: 1998 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$40.class; size: 2904 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$41.class; size: 3039 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$42.class; size: 1559 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$43.class; size: 1563 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$44.class; size: 4604 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$45$1.class; size: 713 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$45.class; size: 3264 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$46$1.class; size: 769 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$46.class; size: 3347 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$47$1.class; size: 851 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$47.class; size: 2576 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$48$1.class; size: 851 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$48.class; size: 2550 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$49.class; size: 3016 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$5.class; size: 730 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$50.class; size: 2249 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$51.class; size: 1300 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$52.class; size: 2054 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$53.class; size: 925 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$54.class; size: 1490 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$55.class; size: 1490 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$56.class; size: 1420 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$57.class; size: 1427 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$58.class; size: 2018 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$59.class; size: 2180 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$6.class; size: 2759 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$60.class; size: 1902 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$61.class; size: 1253 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$62.class; size: 1573 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$63.class; size: 1123 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$64.class; size: 1179 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$65.class; size: 1158 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$66.class; size: 1164 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$67.class; size: 1097 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$68.class; size: 1042 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$69.class; size: 1668 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$7.class; size: 1841 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$70.class; size: 1204 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$71.class; size: 2595 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$72.class; size: 1579 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$73.class; size: 898 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$74.class; size: 919 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$75.class; size: 1004 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$76.class; size: 1005 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$77.class; size: 1667 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$78.class; size: 1665 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$79.class; size: 1390 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$8.class; size: 1238 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$80.class; size: 1761 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$81.class; size: 1419 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$82.class; size: 1376 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$83.class; size: 1370 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$84.class; size: 1545 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$85.class; size: 1541 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$86.class; size: 868 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$87.class; size: 1384 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$88.class; size: 1396 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$89.class; size: 1396 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$9.class; size: 1916 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$90.class; size: 1315 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$91.class; size: 1312 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$92.class; size: 1324 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$93.class; size: 1315 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$94.class; size: 984 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$95.class; size: 992 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$96.class; size: 992 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$97.class; size: 1216 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$98.class; size: 1876 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$99.class; size: 1469 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD$DeckOrBottom.class; size: 1074 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD.class; size: 75687 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCAD.java; size: 284605 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCADSettings$1.class; size: 768 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCADSettings.class; size: 876 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCADSettings.java; size: 635 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCADSettingsDialog.class; size: 1008 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCADSettingsDialog.java; size: 643 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardCommands.java; size: 62448 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardDraw.class; size: 27572 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardDraw.java; size: 43162 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardEdit.class; size: 24880 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardEdit.java; size: 34867 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardFileView.class; size: 4055 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardFileView.java; size: 6160 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardFinsDialog$1.class; size: 647 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardFinsDialog$2.class; size: 1467 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardFinsDialog$3.class; size: 651 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardFinsDialog.class; size: 7303 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardFinsDialog.java; size: 12013 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardGuidePointsDialog$1$1.class; size: 740 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardGuidePointsDialog$1.class; size: 1334 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardGuidePointsDialog$2.class; size: 3152 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardGuidePointsDialog$3.class; size: 932 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardGuidePointsDialog$4.class; size: 1756 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardGuidePointsDialog$5.class; size: 1122 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardGuidePointsDialog$6.class; size: 1227 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardGuidePointsDialog.class; size: 3536 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardGuidePointsDialog.java; size: 9297 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardHandler.class; size: 15969 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardHandler.java; size: 23892 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardInfo$1.class; size: 1198 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardInfo$2.class; size: 621 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardInfo.class; size: 4471 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardInfo.java; size: 6022 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardLoadAction$1.class; size: 1057 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardLoadAction.class; size: 3740 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardLoadAction.java; size: 3959 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardPreview.class; size: 5600 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardPreview.java; size: 7212 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardSpec$1.class; size: 855 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardSpec$2.class; size: 1017 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardSpec$3.class; size: 1020 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardSpec$4.class; size: 613 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardSpec$5.class; size: 614 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardSpec.class; size: 12716 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BoardSpec.java; size: 27961 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdAbstractEditCommand$ControlPointChange.class; size: 1609 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdAbstractEditCommand.class; size: 2767 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdAddControlPointCommand.class; size: 2745 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdAddCrossSectionCommand.class; size: 1482 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdAddGuidePointCommand.class; size: 1343 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdCommand.class; size: 2191 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdCommandHistory.class; size: 1459 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdDeleteControlPointCommand.class; size: 2597 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdEditCommand.class; size: 14941 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdEditParentContainer.class; size: 289 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdEditSplitPane.class; size: 984 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdGuidePointsDialog$1.class; size: 2313 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdGuidePointsDialog$2.class; size: 1324 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdGuidePointsDialog$3.class; size: 1633 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdGuidePointsDialog$4.class; size: 1112 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdGuidePointsDialog.class; size: 2142 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdGuidePointsDialog.java; size: 5192 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdImportCrossSectionCommand.class; size: 2821 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdImportOutlineCommand.class; size: 2303 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdImportProfileCommand.class; size: 2480 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdInputCommand.class; size: 1040 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdMacroCommand.class; size: 1446 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdMoveCrossSectionCommand.class; size: 1251 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdPanCommand.class; size: 1795 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdPasteCrossSectionCommand.class; size: 1733 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdRemoveCrossSectionCommand.class; size: 1154 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdRotateViewCommand.class; size: 2514 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdScaleCommand.class; size: 3427 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdSpotCheckCommand.class; size: 1197 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrdZoomCommand.class; size: 3684 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BrowserControl.class; size: 1955 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BullnoseCutterDialog.class; size: 1996 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/BullnoseCutterDialog.java; size: 2689 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/CategorizedSettingsComponent$1.class; size: 1580 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/CategorizedSettingsComponent.class; size: 2588 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/CategorizedSettingsComponent.java; size: 2405 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ColorEditor.class; size: 2068 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ColorRenderer.class; size: 849 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ComboBoxDialog$1.class; size: 718 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ComboBoxDialog$2.class; size: 646 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ComboBoxDialog.class; size: 3705 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ComboBoxDialog.java; size: 4554 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ControlPointInfo$1.class; size: 1206 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ControlPointInfo$2.class; size: 1224 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ControlPointInfo$3.class; size: 1266 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ControlPointInfo$4.class; size: 1270 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ControlPointInfo.class; size: 8224 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ControlPointInfo.java; size: 14249 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/DesignPanel.class; size: 3421 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/DesignPanel.java; size: 54138 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/EdgeView$1.class; size: 2374 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/EdgeView$2.class; size: 2960 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/EdgeView.class; size: 6006 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/EnumEditor$1.class; size: 576 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/EnumEditor.class; size: 2176 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/FileNameEditor.class; size: 2196 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/GhostCommand.class; size: 473 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/JOGLPanel.class; size: 1047 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/JOGLPanel.java; size: 13297 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/JOGLThreeDView$1.class; size: 1327 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/JOGLThreeDView$ThreeDMouse.class; size: 908 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/JOGLThreeDView.class; size: 3451 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/JavaDraw.class; size: 1503 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/JavaDraw.java; size: 1480 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/Machine2DView$1.class; size: 1005 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/Machine2DView$BrdPositionCommand.class; size: 4553 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/Machine2DView.class; size: 6659 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/Machine2DView.java; size: 12182 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/Machine3DView$1.class; size: 846 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/Machine3DView$2.class; size: 1174 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/Machine3DView$3.class; size: 1166 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/Machine3DView$4.class; size: 1165 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/Machine3DView$5.class; size: 928 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/Machine3DView.class; size: 14046 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/Machine3DView.java; size: 28608 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/MachineConfigComponent.class; size: 1142 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/MachineConfigComponent.java; size: 889 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/MachineDialog$1.class; size: 2560 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/MachineDialog.class; size: 4381 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/MachineDialog.java; size: 4901 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/MachineView.class; size: 2660 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/MachineView.java; size: 2629 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/NurbsEditCommand.class; size: 1265 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/OutlineView$1.class; size: 2387 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/OutlineView$2.class; size: 2979 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/OutlineView.class; size: 7161 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/PointEditCommand.class; size: 1024 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/QuadView.class; size: 1202 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/RockerView$1.class; size: 2382 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/RockerView$2.class; size: 2973 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/RockerView.class; size: 6871 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog$1.class; size: 941 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog$10.class; size: 1776 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog$2.class; size: 1108 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog$3.class; size: 1102 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog$4.class; size: 643 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog$5.class; size: 649 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog$6.class; size: 760 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog$7.class; size: 681 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog$8.class; size: 1775 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog$9.class; size: 1775 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog.class; size: 9889 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ScaleBoardInputDialog.java; size: 16481 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SetCurrentCommandAction.class; size: 990 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SetCurrentOneShotCommandAction.class; size: 746 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SetImageNoseCommand.class; size: 802 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SetImageTailCommand.class; size: 802 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SettingDialog$1.class; size: 684 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SettingDialog$2.class; size: 642 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SettingDialog.class; size: 1981 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SettingDialog.java; size: 1867 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SettingsComponent$1.class; size: 1923 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SettingsComponent$2.class; size: 3226 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SettingsComponent.class; size: 1513 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/SettingsComponent.java; size: 12252 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ShapingBay.class; size: 3975 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/StatusPanel.class; size: 1558 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/StatusPanel.java; size: 1194 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ThreeDView$1.class; size: 642 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ThreeDView$2.class; size: 644 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ThreeDView$3.class; size: 644 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ThreeDView$4.class; size: 645 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ThreeDView$5.class; size: 644 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ThreeDView$6.class; size: 647 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ThreeDView$ThreeDMouse.class; size: 886 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ThreeDView.class; size: 10070 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ThreeDView2$1.class; size: 3317 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ThreeDView2$2.class; size: 3135 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/ThreeDView2.class; size: 9345 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/TwoValuesInputDialog$1.class; size: 754 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/TwoValuesInputDialog$2.class; size: 676 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/TwoValuesInputDialog.class; size: 4629 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/TwoValuesInputDialog.java; size: 5343 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/View.class; size: 1339 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$1.class; size: 684 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$10.class; size: 1071 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$11.class; size: 1081 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$12$1.class; size: 1475 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$12.class; size: 1017 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$13$1.class; size: 1475 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$13.class; size: 1019 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$2.class; size: 1316 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$3.class; size: 1114 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$4.class; size: 1106 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$5.class; size: 1204 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$6.class; size: 1239 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$7.class; size: 1210 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$8.class; size: 1243 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog$9.class; size: 1103 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog.class; size: 17865 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/WeightCalculatorDialog.java; size: 32214 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/plugin/AbstractPlugin.class; size: 279 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/plugin/AbstractPlugin.java; size: 314 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/plugin/AbstractPluginHandler$1.class; size: 875 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/plugin/AbstractPluginHandler.class; size: 2788 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/gui/jdk/plugin/AbstractPluginHandler.java; size: 2503 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/i18n/LanguageResource.class; size: 1743 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/i18n/LanguageResource.java; size: 1146 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/i18n/LanguageResource.properties; size: 29724 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/i18n/LanguageResource_en.properties; size: 28194 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/i18n/LanguageResource_en_US.properties; size: 28173 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/i18n/LanguageResource_es.properties; size: 27341 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/i18n/LanguageResource_fr.properties; size: 27151 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/i18n/LanguageResource_nl.properties; size: 27764 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/i18n/LanguageResource_no.properties; size: 25239 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/i18n/LanguageResource_pt.properties; size: 29457 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/About16.gif; size: 644 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/About24.gif; size: 797 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Add16.gif; size: 238 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Add24.gif; size: 470 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignBottom16.gif; size: 235 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignBottom24.gif; size: 271 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignCenter16.gif; size: 235 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignCenter24.gif; size: 275 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignJustifyHorizontal16.gif; size: 240 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignJustifyHorizontal24.gif; size: 280 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignJustifyVertical16.gif; size: 249 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignJustifyVertical24.gif; size: 299 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignLeft16.gif; size: 232 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignLeft24.gif; size: 267 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignRight16.gif; size: 232 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignRight24.gif; size: 269 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignTop16.gif; size: 236 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/AlignTop24.gif; size: 275 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCAD ico 32x32.ico; size: 81370 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCAD ico 48x48.ico; size: 81370 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCAD png 16x16 transp bg.png; size: 924 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCAD png 16x16 upright.png; size: 861 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCAD png 16x16.png; size: 887 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCAD png 256x256.png; size: 64956 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCADaddcp24.gif; size: 323 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCADaddgp24.gif; size: 207 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCADdelcp24.gif; size: 345 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCADedit24.gif; size: 150 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCADfit24.gif; size: 362 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCADpan24.gif; size: 136 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCADrotateview24.gif; size: 156 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCADtoggle24.gif; size: 320 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCADtoggle24x35.gif; size: 924 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/BoardCADtoggle24x35.png; size: 1093 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Bookmarks16.gif; size: 238 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Bookmarks24.gif; size: 283 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/ComposeMail16.gif; size: 310 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/ComposeMail24.gif; size: 412 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/ContextualHelp16.gif; size: 198 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/ContextualHelp24.gif; size: 244 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Copy16.gif; size: 288 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Copy24.gif; size: 682 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Cut16.gif; size: 652 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Cut24.gif; size: 1193 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Delete16.gif; size: 208 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Delete24.gif; size: 249 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Edit16.gif; size: 441 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Edit24.gif; size: 1244 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Export16.gif; size: 309 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Export24.gif; size: 473 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Find16.gif; size: 434 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Find24.gif; size: 1250 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/FindAgain16.gif; size: 426 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/FindAgain24.gif; size: 804 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Help16.gif; size: 661 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Help24.gif; size: 1328 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/History16.gif; size: 677 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/History24.gif; size: 1304 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Import16.gif; size: 311 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Import24.gif; size: 473 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Information16.gif; size: 661 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Information24.gif; size: 1328 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/New16.gif; size: 426 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/New24.gif; size: 778 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Open16.gif; size: 228 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Open24.gif; size: 462 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/PageSetup16.gif; size: 298 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/PageSetup24.gif; size: 499 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Paste16.gif; size: 298 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Paste24.gif; size: 374 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Preferences16.gif; size: 207 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Preferences24.gif; size: 240 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Print16.gif; size: 293 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Print24.gif; size: 491 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/PrintPreview16.gif; size: 425 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/PrintPreview24.gif; size: 786 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Properties16.gif; size: 425 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Properties24.gif; size: 1188 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Redo16.gif; size: 201 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Redo24.gif; size: 243 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Refresh16.gif; size: 244 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Refresh24.gif; size: 316 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Remove16.gif; size: 213 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Remove24.gif; size: 287 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Replace16.gif; size: 428 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Replace24.gif; size: 808 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Save16.gif; size: 206 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Save24.gif; size: 266 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/SaveAll16.gif; size: 252 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/SaveAll24.gif; size: 334 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/SaveAs16.gif; size: 255 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/SaveAs24.gif; size: 348 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/SaveRefresh.gif; size: 998 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Search16.gif; size: 445 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Search24.gif; size: 820 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/SendMail16.gif; size: 303 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/SendMail24.gif; size: 366 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Stop16.gif; size: 254 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Stop24.gif; size: 313 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/TipOfTheDay16.gif; size: 423 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/TipOfTheDay24.gif; size: 742 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Undo16.gif; size: 202 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Undo24.gif; size: 160 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Zoom16.gif; size: 303 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/Zoom24.gif; size: 485 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/ZoomIn16.gif; size: 304 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/ZoomIn24.gif; size: 484 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/ZoomIn24x50.gif; size: 1028 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/ZoomOut16.gif; size: 304 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/ZoomOut24.gif; size: 477 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/add-controlpoint.png; size: 3645 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/add-guidepoint.png; size: 3596 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/edit-redo.png; size: 936 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/edit-undo.png; size: 897 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/help-about.png; size: 960 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/help-contents.png; size: 893 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/icon outline and mill by jonas.png; size: 2674 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/icon profile and mill by jonas.png; size: 2471 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/mill png 16x16 upright.png; size: 717 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/mill png 16x16.png; size: 861 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/mill png 256x256.png; size: 50591 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/mill png 32x32.png; size: 2463 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/new.png; size: 1202 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/open.png; size: 912 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/print.png; size: 1071 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/remove-controlpoint.png; size: 3567 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/save-as.png; size: 4338 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/save-refresh.png; size: 1366 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/save.png; size: 4124 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/zoom-1to1.png; size: 1295 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/zoom-fit-best.png; size: 1306 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/icons/zoom-in.png; size: 1327 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintBrd$1.class; size: 832 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintBrd$PrintState.class; size: 1202 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintBrd.class; size: 20955 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintBrd.java; size: 43445 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintChamberedWoodTemplate.class; size: 8302 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintChamberedWoodTemplate.java; size: 11935 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintHollowWoodTemplates$1.class; size: 1047 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintHollowWoodTemplates$PrintState.class; size: 1592 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintHollowWoodTemplates.class; size: 30427 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintHollowWoodTemplates.java; size: 80803 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintSandwichTemplates$1.class; size: 1031 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintSandwichTemplates$PrintState.class; size: 1422 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintSandwichTemplates.class; size: 9303 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintSandwichTemplates.java; size: 17804 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintSpecSheet.class; size: 19827 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/print/PrintSpecSheet.java; size: 43875 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/CategorizedSettings$CategorySettingsChangeListener.class; size: 353 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/CategorizedSettings.class; size: 3049 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/CategorizedSettings.java; size: 3608 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/Setting.class; size: 2068 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/Setting.java; size: 1400 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/Settings$Enumeration.class; size: 1202 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/Settings$FileName.class; size: 544 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/Settings$Measurement.class; size: 858 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/Settings$SettingChangedCallback.class; size: 277 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/Settings.class; size: 10039 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/Settings.java; size: 13195 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/SettingsAction.class; size: 382 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad/settings/SettingsAction.java; size: 215 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcad_init.py; size: 3349 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/BoardMachine.class; size: 6186 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/BoardMachine.java; size: 10771 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/MachineConfig$1.class; size: 776 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/MachineConfig$2.class; size: 2513 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/MachineConfig$3.class; size: 2514 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/MachineConfig$4.class; size: 1418 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/MachineConfig$5.class; size: 1294 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/MachineConfig$6.class; size: 1271 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/MachineConfig$7.class; size: 1277 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/MachineConfig$8.class; size: 1275 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/MachineConfig$9.class; size: 1467 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/MachineConfig.class; size: 10629 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/MachineConfig.java; size: 21001 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/Scan.class; size: 21471 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/Scan.java; size: 45831 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/.DS_Store; size: 6148 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/AbstractCutter.class; size: 1694 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/AbstractCutter.java; size: 1807 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/Bullnose2dCutter.class; size: 1552 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/Bullnose2dCutter.java; size: 4638 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/BullnoseCutter.class; size: 3291 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/BullnoseCutter.java; size: 4617 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/FlatCutter.class; size: 1371 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/FlatCutter.java; size: 1548 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/RotatingBoardCutter$1.class; size: 2332 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/RotatingBoardCutter.class; size: 4387 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/RotatingBoardCutter.java; size: 4414 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/STLCutter$1.class; size: 946 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/STLCutter$2.class; size: 1007 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/STLCutter.class; size: 13314 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/STLCutter.java; size: 24800 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/SimpleBullnoseCutter$1.class; size: 779 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/SimpleBullnoseCutter.class; size: 9628 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/cutters/SimpleBullnoseCutter.java; size: 14683 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/holdingsystems/AbstractBlankHoldingSystem.class; size: 4910 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/holdingsystems/AbstractBlankHoldingSystem.java; size: 4763 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/holdingsystems/EndClampsBlankHoldingSystem$1.class; size: 835 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/holdingsystems/EndClampsBlankHoldingSystem$2.class; size: 878 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/holdingsystems/EndClampsBlankHoldingSystem.class; size: 12312 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/holdingsystems/EndClampsBlankHoldingSystem.java; size: 23132 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/holdingsystems/RotatingBoardBlankHoldingSystem.class; size: 324 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/holdingsystems/RotatingBoardBlankHoldingSystem.java; size: 250 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/holdingsystems/SupportsBlankHoldingSystem$1.class; size: 1185 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/holdingsystems/SupportsBlankHoldingSystem.class; size: 10313 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/holdingsystems/SupportsBlankHoldingSystem.java; size: 25440 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/readers/CutReader.class; size: 209 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/readers/CutReader.java; size: 87 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/readers/GCodeReader.class; size: 213 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/readers/GCodeReader.java; size: 62 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/AbstractToolpathGenerator$1.class; size: 1142 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/AbstractToolpathGenerator.class; size: 9175 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/AbstractToolpathGenerator.java; size: 12155 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/AtuaCoresToolpathGenerator$1.class; size: 617 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/AtuaCoresToolpathGenerator.class; size: 4612 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/AtuaCoresToolpathGenerator.java; size: 4697 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/HotwireToolpathGenerator$State.class; size: 1199 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/HotwireToolpathGenerator.class; size: 3627 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/HotwireToolpathGenerator.java; size: 3570 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/HotwireToolpathGenerator2.class; size: 2691 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/HotwireToolpathGenerator2.java; size: 3363 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/SurfaceSplitsToolpathGenerator$1.class; size: 2683 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/SurfaceSplitsToolpathGenerator$State.class; size: 1608 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/SurfaceSplitsToolpathGenerator.class; size: 27298 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/SurfaceSplitsToolpathGenerator.java; size: 54293 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/WidthSplitsToolpathGenerator$State.class; size: 1227 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/WidthSplitsToolpathGenerator.class; size: 4240 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/WidthSplitsToolpathGenerator.java; size: 5072 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/CoordinateScaling$1.class; size: 1208 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/CoordinateScaling.class; size: 2129 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/CoordinateScaling.java; size: 2016 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/SandwichCompensation$1.class; size: 1429 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/SandwichCompensation$2.class; size: 1087 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/SandwichCompensation$3.class; size: 1088 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/SandwichCompensation$4.class; size: 1433 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/SandwichCompensation$5.class; size: 1089 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/SandwichCompensation$6.class; size: 1090 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/SandwichCompensation$7.class; size: 1438 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/SandwichCompensation$8.class; size: 1093 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/SandwichCompensation.class; size: 6149 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/toolpathgenerators/ext/SandwichCompensation.java; size: 7665 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/writers/AbstractMachineWriter.class; size: 1073 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/writers/AbstractMachineWriter.java; size: 1322 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/writers/AtuaCoresMachineWriter.class; size: 1594 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/writers/AtuaCoresMachineWriter.java; size: 1752 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/writers/CutWriter.class; size: 209 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/writers/CutWriter.java; size: 60 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/writers/GCodeWriter.class; size: 2902 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/writers/GCodeWriter.java; size: 2672 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/writers/GCodeWriterWithScaling.class; size: 1079 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/boardcam/writers/GCodeWriterWithScaling.java; size: 1190 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/bullnose.stl; size: 165354 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/AppleScriptEngine.pkc; size: 126 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/BoardCAD.pkc; size: 3004 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/JObjC.pkc; size: 15465 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/MRJToolkit.pkc; size: 269 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/QTJava.pkc; size: 8044 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/charsets.pkc; size: 6612 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/dns_sd.pkc; size: 428 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/dnsns.pkc; size: 165 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/gluegen-rt-natives-macosx-universal.pkc; size: 90 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/gluegen-rt.pkc; size: 1659 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/j3daudio.pkc; size: 1226 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/j3dcore$1.pkc; size: 6286 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/j3dcore.pkc; size: 6999 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/j3dutils$1.pkc; size: 6270 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/j3dutils.pkc; size: 7386 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/jai_codec.pkc; size: 1949 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/jai_core.pkc; size: 13956 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/jce.pkc; size: 1255 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/jfr.pkc; size: 2103 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/jogl-all-natives-macosx-universal.pkc; size: 88 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/jogl-all.pkc; size: 14712 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/jsse.pkc; size: 1523 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/localedata.pkc; size: 1923 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/mlibwrapper_jai.pkc; size: 233 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/packages.idx; size: 4642 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/resources.pkc; size: 95 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/rt.pkc; size: 241446 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/sunec.pkc; size: 183 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/sunjce_provider.pkc; size: 1392 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/sunpkcs11.pkc; size: 1268 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/vecmath$1.pkc; size: 482 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/vecmath.pkc; size: 519 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cachedir/packages/zipfs.pkc; size: 291 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/AbstractBezierBoardSurfaceModel$1.class; size: 853 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/AbstractBezierBoardSurfaceModel$ModelType.class; size: 1224 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/AbstractBezierBoardSurfaceModel.class; size: 2829 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/AbstractBezierBoardSurfaceModel.java; size: 4466 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/AxisAlignedBoundingBox.class; size: 2735 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/AxisAlignedBoundingBox.java; size: 3879 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardControlPointInterpolationSurfaceModel$1.class; size: 1023 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardControlPointInterpolationSurfaceModel$2.class; size: 1025 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardControlPointInterpolationSurfaceModel$3.class; size: 1119 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardControlPointInterpolationSurfaceModel.class; size: 3835 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardControlPointInterpolationSurfaceModel.java; size: 6413 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardCrossSection.class; size: 6895 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardCrossSection.java; size: 13092 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardLinearInterpolationSurfaceModel$1.class; size: 954 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardLinearInterpolationSurfaceModel$2.class; size: 956 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardLinearInterpolationSurfaceModel.class; size: 2194 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardLinearInterpolationSurfaceModel.java; size: 3497 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardSLinearInterpolationSurfaceModel$1.class; size: 998 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardSLinearInterpolationSurfaceModel$2.class; size: 1000 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardSLinearInterpolationSurfaceModel$3.class; size: 1148 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardSLinearInterpolationSurfaceModel$4.class; size: 1148 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardSLinearInterpolationSurfaceModel.class; size: 4696 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierBoardSLinearInterpolationSurfaceModel.java; size: 10805 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierCurve.class; size: 10125 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierCurve.java; size: 24729 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierKnot.class; size: 9686 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierKnot.java; size: 14096 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierKnotChangeListener.class; size: 182 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierKnotChangeListener.java; size: 118 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierSpline$1.class; size: 881 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierSpline$2.class; size: 691 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierSpline$3.class; size: 562 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierSpline$4.class; size: 566 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierSpline.class; size: 16076 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierSpline.java; size: 28362 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierUtil.class; size: 9128 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/BezierUtil.java; size: 18889 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$CurveLength.class; size: 925 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$DerivableFunction.class; size: 284 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$Function.class; size: 200 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$FunctionXY.class; size: 311 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$FunctionXYZ.class; size: 228 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$Integral$SimpsonsRuleIntegral.class; size: 893 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$Integral$TrapezoidRuleIntegral.class; size: 911 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$Integral.class; size: 796 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$RootFinder$BisectRootFinder.class; size: 981 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$RootFinder$NewtonRaphsonRootFinder.class; size: 1008 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$RootFinder$SecantRootFinder.class; size: 1074 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$RootFinder.class; size: 1376 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$TwoParamDerivableFunction.class; size: 301 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$TwoParamFunction.class; size: 217 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$TwoParamFunctionXY.class; size: 328 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils$TwoParamFunctionXYZ.class; size: 245 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils.class; size: 1135 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/MathUtils.java; size: 9356 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/NurbsPoint.class; size: 876 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/NurbsPoint.java; size: 968 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/NurbsSurface.class; size: 14452 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/NurbsSurface.java; size: 26992 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/Triangle.class; size: 669 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/Triangle.java; size: 931 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/UnitUtils.class; size: 8810 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/UnitUtils.java; size: 13643 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/VecMath.class; size: 1357 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/cadcore/VecMath.java; size: 1226 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/disc.stl; size: 257671 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/.DS_Store; size: 8196 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/allclasses-frame.html; size: 16084 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/allclasses-noframe.html; size: 13724 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/AbstractBoard.html; size: 10388 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/BezierBoard.html; size: 119188 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/MeshBoard.html; size: 16170 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/NurbsBoard.html; size: 71960 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/package-frame.html; size: 961 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/package-summary.html; size: 4615 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/package-tree.html; size: 4343 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/readers/BrdReader.html; size: 12969 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/readers/S3dReader.html; size: 8513 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/readers/SrfReader.html; size: 8515 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/readers/StepReader.html; size: 12789 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/readers/package-frame.html; size: 1011 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/readers/package-summary.html; size: 4803 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/readers/package-tree.html; size: 4537 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/writers/BrdWriter.html; size: 10249 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/writers/S3DWriter.html; size: 6878 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/writers/StepWriter.html; size: 8564 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/writers/package-frame.html; size: 912 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/writers/package-summary.html; size: 4633 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/board/writers/package-tree.html; size: 4388 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/AbstractDraw.html; size: 13356 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/DefaultBrds.html; size: 7632 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/FileTools.html; size: 10003 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/ScriptLoader.html; size: 7609 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/export/DxfExport.html; size: 15794 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/export/GCodeDraw.html; size: 6898 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/export/PdfDraw.html; size: 6646 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/export/package-frame.html; size: 918 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/export/package-summary.html; size: 4655 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/export/package-tree.html; size: 4416 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/AboutBox.html; size: 17622 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BezierBoardDrawUtil.html; size: 114471 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BoardCAD.html; size: 91920 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BoardDraw.html; size: 25412 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BoardEdit.html; size: 58795 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BoardFileView.html; size: 10792 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BoardFinsDialog.html; size: 18201 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BoardGuidePointsDialog.html; size: 18982 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BoardHandler.html; size: 51325 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BoardInfo.html; size: 18083 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BoardLoadAction.html; size: 12040 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BoardPreview.html; size: 18750 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BoardSpec.html; size: 18716 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BrdGuidePointsDialog.html; size: 18062 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/BullnoseCutterDialog.html; size: 18007 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/CategorizedSettingsComponent.html; size: 17054 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/ComboBoxDialog.html; size: 18063 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/ControlPointInfo.html; size: 19631 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/JavaDraw.html; size: 17444 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/Machine2DView.html; size: 28797 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/Machine3DView.html; size: 28436 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/MachineConfigComponent.html; size: 15770 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/MachineDialog.html; size: 25425 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/MachineView.html; size: 22142 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/ScaleBoardInputDialog.html; size: 18142 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/SettingDialog.html; size: 16629 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/TwoValuesInputDialog.html; size: 18147 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/WeightCalculatorDialog.html; size: 17862 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/package-frame.html; size: 3808 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/package-summary.html; size: 9759 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/package-tree.html; size: 10662 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/plugin/AbstractPlugin.html; size: 7235 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/plugin/AbstractPluginHandler.html; size: 9218 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/plugin/package-frame.html; size: 987 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/plugin/package-summary.html; size: 5108 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/gui/jdk/plugin/package-tree.html; size: 4583 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/i18n/LanguageResource.html; size: 6856 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/i18n/package-frame.html; size: 726 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/i18n/package-summary.html; size: 4325 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/i18n/package-tree.html; size: 4122 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/package-frame.html; size: 984 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/package-summary.html; size: 4709 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/package-tree.html; size: 4420 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/print/PrintBrd.PrintState.html; size: 13119 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/print/PrintBrd.html; size: 22506 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/print/PrintChamberedWoodTemplate.html; size: 23931 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/print/PrintHollowWoodTemplates.PrintState.html; size: 15769 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/print/PrintHollowWoodTemplates.html; size: 52776 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/print/PrintSandwichTemplates.PrintState.html; size: 14489 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/print/PrintSandwichTemplates.html; size: 24710 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/print/PrintSpecSheet.html; size: 19514 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/print/package-frame.html; size: 1685 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/print/package-summary.html; size: 6140 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/print/package-tree.html; size: 6135 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/CategorizedSettings.CategorySettingsChangeListener.html; size: 7501 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/CategorizedSettings.html; size: 14581 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/Setting.html; size: 15680 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/Settings.Enumeration.html; size: 11020 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/Settings.FileName.html; size: 8365 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/Settings.Measurement.html; size: 9249 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/Settings.SettingChangedCallback.html; size: 6752 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/Settings.html; size: 44120 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/SettingsAction.html; size: 6700 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/package-frame.html; size: 1484 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/package-summary.html; size: 5782 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcad/settings/package-tree.html; size: 5732 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/BoardMachine.html; size: 29401 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/MachineConfig.html; size: 41731 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/Scan.html; size: 21480 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/cutters/AbstractCutter.html; size: 19499 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/cutters/Bullnose2dCutter.html; size: 15136 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/cutters/FlatCutter.html; size: 15899 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/cutters/RotatingBoardCutter.html; size: 23431 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/cutters/STLCutter.html; size: 23614 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/cutters/SimpleBullnoseCutter.html; size: 24885 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/cutters/package-frame.html; size: 1302 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/cutters/package-summary.html; size: 5641 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/cutters/package-tree.html; size: 5020 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/holdingsystems/AbstractBlankHoldingSystem.html; size: 22790 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/holdingsystems/EndClampsBlankHoldingSystem.html; size: 21867 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/holdingsystems/RotatingBoardBlankHoldingSystem.html; size: 13227 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/holdingsystems/SupportsBlankHoldingSystem.html; size: 24462 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/holdingsystems/package-frame.html; size: 1227 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/holdingsystems/package-summary.html; size: 5107 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/holdingsystems/package-tree.html; size: 4905 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/package-frame.html; size: 878 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/package-summary.html; size: 4799 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/package-tree.html; size: 4477 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/readers/CutReader.html; size: 6691 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/readers/GCodeReader.html; size: 6719 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/readers/package-frame.html; size: 830 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/readers/package-summary.html; size: 4544 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/readers/package-tree.html; size: 4326 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/toolpathgenerators/AbstractToolpathGenerator.html; size: 32861 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/toolpathgenerators/AtuaCoresToolpathGenerator.html; size: 20425 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/toolpathgenerators/HotwireToolpathGenerator.html; size: 20125 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/toolpathgenerators/HotwireToolpathGenerator2.html; size: 19575 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/toolpathgenerators/SurfaceSplitsToolpathGenerator.State.html; size: 25338 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/toolpathgenerators/SurfaceSplitsToolpathGenerator.html; size: 70710 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/toolpathgenerators/WidthSplitsToolpathGenerator.html; size: 21073 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/toolpathgenerators/package-frame.html; size: 1541 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/toolpathgenerators/package-summary.html; size: 5627 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/toolpathgenerators/package-tree.html; size: 5690 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/writers/AbstractMachineWriter.html; size: 17670 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/writers/AtuaCoresMachineWriter.html; size: 20642 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/writers/CutWriter.html; size: 6945 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/writers/GCodeWriter.html; size: 22906 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/writers/GCodeWriterWithScaling.html; size: 14643 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/writers/package-frame.html; size: 1212 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/writers/package-summary.html; size: 5134 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/boardcam/writers/package-tree.html; size: 4886 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/AxisAlignedBoundingBox.html; size: 16162 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/BezierBoardCrossSection.html; size: 17775 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/BezierCurve.html; size: 21306 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/BezierKnot.html; size: 33577 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/BezierKnotChangeListener.html; size: 6561 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/BezierSpline.html; size: 43062 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/BezierUtil.html; size: 7988 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.CurveLength.html; size: 9437 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.DerivableFunction.html; size: 7310 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.Function.html; size: 6655 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.FunctionXY.html; size: 6402 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.FunctionXYZ.html; size: 6388 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.Integral.SimpsonsRuleIntegral.html; size: 8891 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.Integral.TrapezoidRuleIntegral.html; size: 7468 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.Integral.html; size: 10624 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.RootFinder.BisectRootFinder.html; size: 8869 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.RootFinder.NewtonRaphsonRootFinder.html; size: 9062 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.RootFinder.SecantRootFinder.html; size: 8907 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.RootFinder.html; size: 13785 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.TwoParamDerivableFunction.html; size: 7654 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.TwoParamFunction.html; size: 6520 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.TwoParamFunctionXY.html; size: 6590 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.TwoParamFunctionXYZ.html; size: 6537 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/MathUtils.html; size: 12475 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/NurbsPoint.html; size: 12489 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/NurbsSurface.html; size: 42032 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/Triangle.html; size: 9755 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/UnitUtils.html; size: 27892 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/VecMath.html; size: 11115 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/package-frame.html; size: 4186 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/package-summary.html; size: 9878 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/cadcore/package-tree.html; size: 8869 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/constant-values.html; size: 35096 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/deprecated-list.html; size: 5101 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/help-doc.html; size: 7963 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/index-all.html; size: 626180 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/index.html; size: 1504 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/overview-frame.html; size: 2237 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/overview-summary.html; size: 6112 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/overview-tree.html; size: 27893 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/package-list; size: 267 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/resources/background.gif; size: 2313 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/resources/tab.gif; size: 291 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/resources/titlebar.gif; size: 10701 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/resources/titlebar_end.gif; size: 849 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/serialized-form.html; size: 51860 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/doc/stylesheet.css; size: 11139 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/flatcollision.stl; size: 18354 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/flatcutter.stl; size: 506003 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/flatcutter4axis.stl; size: 506273 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/flatcutter5axis.stl; size: 506390 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/gluegen-rt-natives-linux-amd64.jar; size: 5442 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/gluegen-rt-natives-linux-i586.jar; size: 5474 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/gluegen-rt-natives-macosx-universal.jar; size: 6271 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/gluegen-rt-natives-windows-amd64.jar; size: 9321 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/gluegen-rt-natives-windows-i586.jar; size: 8746 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/gluegen-rt.jar; size: 294610 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/j3dcore.jar; size: 2878081 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/j3dutils.jar; size: 1714102 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/jogl-all-natives-linux-amd64.jar; size: 203174 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/jogl-all-natives-linux-i586.jar; size: 202234 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/jogl-all-natives-macosx-universal.jar; size: 406156 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/jogl-all-natives-windows-amd64.jar; size: 217598 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/jogl-all-natives-windows-i586.jar; size: 188254 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/jogl-all.jar; size: 3227328 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/jython.jar; size: 9079224 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/jythonconsole.jar; size: 35707 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/mymanifest; size: 252 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/newkey; size: 1273 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/postprocess.py; size: 917 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/shapebot.properties; size: 1799 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/shapebot3bottom.py; size: 7761 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/shapebot3deck.py; size: 7552 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/shapebot4bottom.py; size: 7829 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/shapebot4deck.py; size: 9937 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/shapebot5bottom.py; size: 6657 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/shapebot5deck copy.py; size: 8983 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/shapebot5deck.py; size: 14770 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/uninstall; size: 11379 bytes; exists: false
+       File options set to: [fileTime: Mon Feb 23 16:38:24 CET 2015, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/alogo/BoardCAD/vecmath.jar; size: 318870 bytes; exists: false
+       File options set to: [fileTime: Mon Feb 23 16:37:28 CET 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/alogo/BoardCAD/.install4j/inst_jre.cfg; size: 35 bytes; exists: false
+       File options set to: [fileTime: Mon Jan 04 19:57:28 CET 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/alogo/BoardCAD/.install4j/i4jruntime.jar; size: 1105867 bytes; exists: false
+       File options set to: [fileTime: Mon Jan 04 19:57:28 CET 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/alogo/BoardCAD/.install4j/MessagesDefault; size: 32917 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/.install4j/i4jparams.conf; size: 133429 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/.install4j/stats.properties; size: 5182 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/.install4j/user.jar; size: 4418 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/.install4j/i4j_extf_0_17mapa5.utf8; size: 32917 bytes; exists: false
+       Install file: /home/alogo/BoardCAD/.install4j/i4j_extf_1_17mapa5.txt; size: 17987 bytes; exists: false
+       Execute action successful after 818 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property programGroupName: 
+       Property allUsers: true
+       Property linkDirectory: /usr/local/bin
+       Property unixSymlinks: true
+       Property addUninstaller: true
+       Property uninstallerMenuName: BoardCAD Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property categories: Application
+       Property programGroupEntryConfigs: []
+       Property failForSymlinksNotCreated: false
+       Property unixMenuEntries: true
+       Property rollbackSupported: true
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property itemName: BoardCAD 3.0.1
+       Property iconSource: Installer icon
+       Property icon: null
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished
